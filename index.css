@@ -1,0 +1,44 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+section{
+    height: 500px;
+}
+.top-baner{
+    background-image: url("Image/top-banner.png");
+}
+.text-aria{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+.text-aria h1{
+    font-size: 50px;
+    
+}
+.development-color{
+    color: coral;
+}
+.taitel{
+    font-size: 40px;
+}
+.about{
+    font-size: 25px;
+}
+.Image-aria {
+    width: 45%;
+    float: left;
+    padding-left: 10%;
+}
+.Image-aria img{
+    width:60%;
+    
+}
+.top-baner{
+    background-image: url("Image/top-banner.png");
+    background-repeat: no-repeat;
+
+}
+
+
