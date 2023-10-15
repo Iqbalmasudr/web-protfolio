@@ -2,11 +2,17 @@ body{
     font-family: sans-serif;
     margin: 0;
 }
+
+.p{
+    color: dimgray;
+}
 section{
     height: 500px;
 }
+    
 .top-baner{
     background-image: url("Image/top-banner.png");
+    background-repeat: no-repeat
 }
 .text-aria{
     width: 40%;
@@ -26,19 +32,82 @@ section{
 .about{
     font-size: 25px;
 }
+.buttom{
+    text-decoration: none;
+    background-color: coral;
+    padding: 10px 40px;
+    font-weight: bold;
+    color: wheat;
+    border-radius: 10px;
+}
+
+/* section ar prothom div end */
+
+
 .Image-aria {
     width: 45%;
     float: left;
     padding-left: 10%;
 }
 .Image-aria img{
-    width:60%;
+    padding-left: 50px;
+    height: 500px;
+    width:auto;
     
 }
-.top-baner{
-    background-image: url("Image/top-banner.png");
-    background-repeat: no-repeat;
 
+
+/* sceond-part start now */
+
+
+.half-width{
+    width: 40%;
+    height: 0%;
+    padding-left: 5%;
+    padding-top: 10%;
 }
 
+.laft-site {
+    width: 45%;
+    float: right;
+    margin-right: 5%;
+}
+.laft-site h2{
+    font-size: 50px;
+}
+.laft-site h3{
+    font-size: 40px;
+}
+.laft-site p{
+    font-size: 25px;
+}
+.Resume-of{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: coral;
+    padding: 10px 40px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.laft-site{
+    background-image: url("Image/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.Experience-aria{
+    width: 45%;
+    padding-top: 20%;
+    padding-left: 5%;
+    
+}
+/* .Propetional{
+    
+} */
+.baginer{
+    float: right;
+}
+    
+    
 
