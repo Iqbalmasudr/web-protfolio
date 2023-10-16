@@ -58,7 +58,9 @@ section{
 
 
 /* sceond-part start now */
-
+.Experience{
+    font-size: 60px;
+}
 
 .half-width{
     width: 40%;
@@ -96,18 +98,54 @@ section{
     background-position: right;
 }
 
+
+/* 3rd part start..................... */
+
+
 .Experience-aria{
-    width: 45%;
     padding-top: 20%;
     padding-left: 5%;
+    padding-right: 5%;
     
 }
-/* .Propetional{
+.Propetional{
     
-} */
+    width: 45%;
+}
 .baginer{
-    float: right;
+    width: 45%;
+    float :right;
 }
-    
-    
+.shedo{
+    box-shadow: 10px 10px 40px gray; 
+    border-radius: 5px;
+    height: 40%;
+    background-color: white;
+}
+.Experience-aria{
+    background-image: url("Image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#boroder{
+    border-left: 7px solid ;
+    border-image:linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#boroder-color{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue , cyan);
+    border-image-slice: 1;
+}
+ 
+
+footer p{
+    text-align: center;
+    font-size: 23px;
+    padding-top: 200px;
+    color: gray;
+
+}
 
